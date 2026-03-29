@@ -1,6 +1,4 @@
 # Boutique Diayma
-https://drive.google.com/file/d/1WB9Rz9wgRRKOzSRbeDT5EMLgJpaTcgmn/view?usp=sharing
-
 Projet : BoutiqueDiayma2025 — TP .NET
 Ce dépôt contient les travaux dirigés réalisés dans le cadre du cours .NET à l'École Supérieure Polytechnique (ESP) de l'UCAD pour l'année 2025/2026.
 
@@ -31,4 +29,10 @@ Méthode : GetTotalValue()
 4,P2FixAnAppDotNetCode.Controllers,CartController,CartController(...),15,F10 (Pas à pas principal)
 Problème : Le calcul ignorait la quantité (Sum(x => x.Product.Price)).
 
+5. Déploiement (Tâche 9 & 10)
+L'application a été publiée sous forme d'exécutable Windows.
+Lien vers l'exécutable : https://drive.google.com/file/d/1WB9Rz9wgRRKOzSRbeDT5EMLgJpaTcgmn/view?usp=sharing
+6. Améliorations Optionnelles (Tâche 11)
+Internationalisation : Ajout de la langue Wolof à l'interface tout en conservant les paramètres de culture français.
+Gestion de version : Réalisation de plusieurs commits significatifs pour tracer l'évolution des corrections
 Correction : Modification de la logique pour multiplier le prix par la quantité : Sum(x => x.Product.Price * x.Quantity).
